@@ -1,0 +1,4 @@
+*pyc
+.idea/
+node_modules/
+storefront-env/
