@@ -7,7 +7,7 @@ unset http_proxy && unset https_proxy unset HTTP_PROXY unset HTTPS_PROXY
 
 # install dependencies
 echo "-- installing system dependencies --"
-sudo apt update && sudo apt install build-essential libsasl2-dev python3-dev libldap2-dev libssl-dev binutils libproj-dev gdal-bin libgeoip1 python-gdal nodejs python-virtualenv -y
+sudo apt update && sudo apt install python-virtualenv -y
 
 # create the logfile and make it readable
 echo "-- creating log files --"
